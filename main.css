@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Lato&family=Noto+Sans+Vithkuqi&family=Poppins&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #2f303a;
+  font-family: "poppins", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+header li {
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+.full-height-grow {
+  display: flex;
+  flex-direction: column;
+}
+.brand-logo-name {
+  margin-left: 1rem;
+}
+
+.main-nav a {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.main-header {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav a:hover {
+  color: #adadad;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 3em;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #1762a7;
+  color: inherit;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.75em;
+}
